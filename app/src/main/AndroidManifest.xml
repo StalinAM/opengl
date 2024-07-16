@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Portafolio"
+        tools:targetApi="31">
+        <!-- -->
+        <!-- Principal (Portada) -->
+                <activity
+                    android:name=".activities.PrincipalActivity"
+                    android:exported="true"
+                    android:label="@string/app_name"
+                    android:theme="@style/Theme.Portafolio">
+                    <intent-filter>
+                        <action android:name="android.intent.action.MAIN" />
+                        <category android:name="android.intent.category.LAUNCHER" />
+                    </intent-filter>
+                </activity>
+        <!-- Version a escoger -->
+                <activity
+                    android:name=".activities.EscogerVersion"
+                    android:exported="true"
+                    android:label="@string/app_name"
+                    android:theme="@style/Theme.Portafolio">
+                    <intent-filter>
+                        <!-- <action android:name="android.intent.action.MAIN" /> -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Opengl ES 1.0 -->
+        <!-- ************************************************************************** -->
+        <activity
+            android:name=".activities.VersionUnoIndice"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Portafolio">
+            <intent-filter>
+
+                <!-- <action android:name="android.intent.action.MAIN" /> -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--//////////////////////////////////////////////////////////////////////////// -->
+        <!-- Pagina 1 -->
+        <activity
+            android:name=".activities.PaginaUnoVersionUno"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Portafolio">
+            <intent-filter>
+
+                <!-- <action android:name="android.intent.action.MAIN" /> -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activities.OpcionColor"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Portafolio">
+            <intent-filter>
+
+                <!-- <action android:name="android.intent.action.MAIN" /> -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activities.TocaPantalla"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Portafolio">
+            <intent-filter>
+
+                <!-- <action android:name="android.intent.action.MAIN" /> -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activities.GiraPantalla"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Portafolio">
+            <intent-filter>
+
+                <!-- <action android:name="android.intent.action.MAIN" /> -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activities.PuntosPantalla"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Portafolio">
+            <intent-filter>
+
+                <!-- <action android:name="android.intent.action.MAIN" /> -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activities.GirarCubo"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Portafolio">
+            <intent-filter>
+
+                <!-- <action android:name="android.intent.action.MAIN" /> -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activities.GiroCamara"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Portafolio">
+            <intent-filter>
+
+                <!-- <action android:name="android.intent.action.MAIN" /> -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activities.GiroMundo"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Portafolio">
+            <intent-filter>
+
+                <!-- <action android:name="android.intent.action.MAIN" /> -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activities.RenderesParaVersionUnoPaginaUno"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Portafolio">
+            <intent-filter>
+
+                <!-- <action android:name="android.intent.action.MAIN" /> -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--//////////////////////////////////////////////////////////////////////////// -->
+        <!-- Pagina 2 -->
+        <activity
+            android:name=".activities.PaginaDosVersionUno"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Portafolio">
+            <intent-filter>
+
+                <!-- <action android:name="android.intent.action.MAIN" /> -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activities.RenderesParaVersionUnoPaginaDos"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Portafolio">
+            <intent-filter>
+
+                <!-- <action android:name="android.intent.action.MAIN" /> -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activities.MoverMundoMateriales"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Portafolio">
+            <intent-filter>
+
+                <!-- <action android:name="android.intent.action.MAIN" /> -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activities.MoverMundoTexturas"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Portafolio">
+            <intent-filter>
+
+                <!-- <action android:name="android.intent.action.MAIN" /> -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <!--//////////////////////////////////////////////////////////////////////////// -->
+
+        <!-- ************************************************************************** -->
+        <!-- Opengl ES 2.0 -->
+        <activity
+            android:name=".activities.VersionDos"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Portafolio">
+            <intent-filter>
+                <!-- <action android:name="android.intent.action.MAIN" /> -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activities.RenderesParaVersionDos"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Portafolio">
+            <intent-filter>
+                <!-- <action android:name="android.intent.action.MAIN" /> -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Portafolio">
+            <intent-filter>
+                <!-- <action android:name="android.intent.action.MAIN" /> -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
